@@ -1,14 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Table</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <table style="width: 100%; height: 100%">
-      <!-- Your code here -->
-    </table>
-  </body>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
+	
+<table class="table font-minospace text-end fw-bold table-hover table-responsive">
+	<caption>List of all the transactions</caption>
+	
+	<thead class="table-dark">
+		<tr>
+			<th>#</th>
+			<th>From</th>
+<th>To</th>
+<th>Amount($)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>Mark</td>
+<td>Otto</td>
+			<td>1000</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Jacob</td>
+			<td>Thornton</td>
+			<td>1500</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Jack</td>
+			<td>John</td>
+			<td>2000</td>
+		</tr>
+		<tfoot class="table-light">
+		<tr class="font-monospace text-end fw-bold bg-primary">
+			<td colspan="3" id="total">Total 4000</td>
+			
+		</tr>
+</tfoot>
+
+	</tbody>
+</table>
+</body>
+
 </html>
